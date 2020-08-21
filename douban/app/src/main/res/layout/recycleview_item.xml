@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <com.example.myapplication.utils.RoundImageView
+        android:id="@+id/recycler_picture_movie"
+        android:layout_width="50dp"
+        android:scaleType="fitXY"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/recycler_number"
+        android:textColor="#FF7F24"/>
+
+    <View
+        android:id="@+id/main_line"
+        android:layout_width="10dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="65dp"
+        android:background="#CDC9C9"/>
+
+    <TextView
+        android:id="@+id/recycler_title_chinese"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:id="@+id/recycler_title_english"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+        android:textColor="#A9A9A9"
+        android:ellipsize="end"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:text="评分："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/xiangkan"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="17dp"
+        android:text="电影"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="10dp"
+        android:textColor="#0066cc"
+        android:background="@drawable/shape"/>
+
+    <TextView
+        android:id="@+id/recycler_movie_introduction"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="68dp"
+        android:textColor="#CDC9C9"
+        android:ellipsize="end"
+        android:textSize="10dp"
+
+        android:maxLines="2"
+        />
+    <RatingBar
+        android:id="@+id/recycler_ratingbar"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="150dp"
+        android:progressTint="#EE7621"
+        style="?android:attr/ratingBarStyleSmall"
+        />
+    <TextView
+        android:id="@+id/recycler_rating_average"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="235dp"
+        android:textSize="12dp"
+        />
+
+
+</RelativeLayout>

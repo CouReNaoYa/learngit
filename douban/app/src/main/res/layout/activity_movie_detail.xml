@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/detail_picture"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="130dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="电影详情"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="15dp"
+        android:id="@+id/detail_name"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="10dp"
+        android:id="@+id/detail_name_english"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="10dp"
+        android:id="@+id/detail_release_time"
+        />
+    <TextView
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="205dp"
+    android:layout_marginLeft="200dp"
+    android:textSize="10dp"
+    android:id="@+id/detail_rating"
+    />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="10dp"
+        android:id="@+id/detail_classification"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="10dp"
+        android:id="@+id/detail_broadcast_time"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="导演——————"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/detail_directors">
+
+        <ImageView
+            android:id="@+id/detail_directors_picture"
+            android:layout_width="60dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp" />
+
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:id="@+id/detail_directors_name"
+            android:layout_marginLeft="150dp" />
+        <TextView
+            android:layout_width="500dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="60dp"
+            android:textSize="15dp"
+            android:id="@+id/detail_directors_name_english"
+            android:layout_marginLeft="150dp" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="520dp"
+        android:id="@+id/detail_casts">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
